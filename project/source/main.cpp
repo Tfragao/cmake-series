@@ -1,9 +1,6 @@
 #include <iostream>
-#include <concepts>
 
-template <typename T>
-requires std::integral<T>
-T add(T a, T b){
+int add(int a, int b){
     return a + b;
 }
 
